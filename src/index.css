@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+html,body{
+  color: #242424;
+  background-color: aliceblue;
+}
+.div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div > div{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  margin: 2px;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid rgb(39, 220, 39) !important;
+}
+.sectionName{
+  text-align: center;
+  margin-top: 1rem;
+}
+div .selected{
+  color: #fff;
+  background-color: #1ea83c;
+}
+.submit{
+  position: fixed;
+  bottom: 0;
+  color: #fff8fa;
+  background: #eb4e63;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.container{
+  margin-bottom: 2.5rem;
+}
+h1{
+  text-align: center;
+}
